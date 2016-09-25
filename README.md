@@ -15,10 +15,10 @@ Layout markdown could be found [here](https://github.com/arturashyrov/casino-api
 Visually layouts should look like this.
 
 Desktop layout should be:
-[!desktop-layout](https://github.com/arturashyrov/casino-api-facade/blob/master/src/main/resources/static/desktop-layout.png)
+![desktop-layout](https://github.com/arturashyrov/casino-api-facade/blob/master/src/main/resources/static/desktop-layout.png)
 
 Mobile layout should be:
-[!desktop-layout](https://github.com/arturashyrov/casino-api-facade/blob/master/src/main/resources/static/mobile-layout.png)
+![mobile-layout](https://github.com/arturashyrov/casino-api-facade/blob/master/src/main/resources/static/mobile-layout.png)
 
 Please note that these layouts are very abstract. We won't mind any minor changes to layout
 
