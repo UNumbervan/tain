@@ -45,16 +45,14 @@ Sample response:
         }
     ],
     "gameLaunchUrlTemplate": "https://blablabla?gameId={game.id}",
-    "gameIconsUrlTemplate": "https://blablabla/id_{game.id}.png"
+    "gameIconsUrlTemplate": "https://blablabla/id_{game.id}.png",
+    "logoUrlTemplate": "https://blablabla/tain_logo.png"
 }
 ```
 
-Logo url template:
-https://<logo-root>/{config.brandName}_logo.png
+Logo url template is config.logoUrlTemplate
 
-<logo-root> - ask me via skype
-
-Where {config.brandName} should be substituted with a value you get from config response
+Where {config.brandName} should be substituted with a value you get from config response(config.brandName)
 (in example above it should be substituted with "tain")
 
 {config.lobbyCategories} should be used to render <categories-menu/> element. 

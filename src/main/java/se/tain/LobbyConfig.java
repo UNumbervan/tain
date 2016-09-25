@@ -12,6 +12,7 @@ public class LobbyConfig {
     private String brandName;
     private String gameLaunchUrlTemplate;
     private String gameIconsUrlTemplate;
+    private String logoUrlTemplate;
     private List<GameCategoryData> lobbyCategories;
 
     public String getBrandName() {
@@ -36,6 +37,14 @@ public class LobbyConfig {
 
     public void setGameIconsUrlTemplate(String gameIconsUrlTemplate) {
         this.gameIconsUrlTemplate = gameIconsUrlTemplate;
+    }
+
+    public String getLogoUrlTemplate() {
+        return logoUrlTemplate;
+    }
+
+    public void setLogoUrlTemplate(String logoUrlTemplate) {
+        this.logoUrlTemplate = logoUrlTemplate;
     }
 
     public List<GameCategoryData> getLobbyCategories() {

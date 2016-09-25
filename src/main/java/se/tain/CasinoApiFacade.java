@@ -35,6 +35,7 @@ public class CasinoApiFacade {
         configData.setGameLaunchUrlTemplate(lobbyConfig.getGameLaunchUrlTemplate());
         configData.setLobbyCategories(lobbyConfig.getLobbyCategories());
         configData.setGameIconsUrlTemplate(lobbyConfig.getGameIconsUrlTemplate());
+        configData.setLogoUrlTemplate(lobbyConfig.getLogoUrlTemplate());
         return configData;
     }
 
