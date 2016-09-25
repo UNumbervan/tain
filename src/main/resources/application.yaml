@@ -1,0 +1,30 @@
+player:
+  name: John Doe
+  balance:
+    cash: 10.33
+    bonus: 3.19
+
+lobby:
+  brandName: tain
+  gameLaunchUrlTemplate: https://casinotesteur.tain.com/lobby/cwl/igame?gameId=$gameId
+  lobbyCategories:
+    -
+      id: slots
+      displayName: Slots
+    -
+      id: video_pokers
+      displayName: Video Poker
+    -
+      id: table_games
+      displayName: Table Games
+
+dictionary:
+  games:
+    -
+      id: 1
+      lobbyName: Hunting Season
+      devices:
+        - mobile
+        - desktop
+      categories:
+        - slots

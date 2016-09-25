@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Sample WL Site</title>
+</head>
+<body>
+<header>
+    <logo>
+        <!-- This DOM element should contain logo. Location is based on the /api/config call response
+        from backend(see README)-->
+    </logo>
+    <player-info>
+        <!-- This DOM element should contain info from /api/player/info call response.
+        Name and balances should be displayed line by line-->
+    </player-info>
+</header>
+<categories-menu>
+    <!-- This DOM element should render lobbyCategories from /api/config call response -->
+    <!-- Semantically it's an alias for nav html element.-->
+    <!-- On desktop devices this container should stretch in order to show all categories. If it stretches - it should also -->
+    <!-- automatically stretch games section. Min-width should be considered -->
+    <!-- On mobile devices it should render as sandwich menu button -->
+</categories-menu>
+<section>
+    <games>
+        <!--This DOM element should render game icons. When you click on the icon it should launch the game-->
+        <!--See README for game icons and launch url template instructions. -->
+        <!--Don't forget to show only relevant games(with a proper device parameter) here-->
+        <!--Width of this element should automatically adjust to categories-menu width-->
+    </games>
+</section>
+</body>
+</html>

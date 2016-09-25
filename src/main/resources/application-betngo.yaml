@@ -1,0 +1,34 @@
+player:
+  name: Billie Jean
+  balance:
+    cash: 300.56
+    bonus: 150.28
+
+lobby:
+  brandName: betngo
+  gameLaunchUrlTemplate: https://devcasino-dev.tain.com/lobby/cwl/igame?gameId=$gameId
+  lobbyCategories:
+    -
+      id: blackjacks
+      displayName: Blackjack
+    -
+      id: roulettes
+      displayName: Roulette
+    -
+      id: table_games
+      displayName: Table Games
+    -
+      id: virtual_sports
+      displayName: Virtual Sports
+    -
+      id: video_pokers
+      displayName: Video Poker
+    -
+      id: hilos
+      displayName: Hi Lo
+    -
+      id: live_casino_games
+      displayName: Live Casino Games
+    -
+      id: others
+      displayName: Other
