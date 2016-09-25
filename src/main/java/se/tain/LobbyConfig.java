@@ -9,9 +9,9 @@ import java.util.List;
 @Configuration
 @ConfigurationProperties(prefix = "lobby")
 public class LobbyConfig {
-    // lobby properties
     private String brandName;
     private String gameLaunchUrlTemplate;
+    private String gameIconsUrlTemplate;
     private List<GameCategoryData> lobbyCategories;
 
     public String getBrandName() {
@@ -28,6 +28,14 @@ public class LobbyConfig {
 
     public void setGameLaunchUrlTemplate(String gameLaunchUrlTemplate) {
         this.gameLaunchUrlTemplate = gameLaunchUrlTemplate;
+    }
+
+    public String getGameIconsUrlTemplate() {
+        return gameIconsUrlTemplate;
+    }
+
+    public void setGameIconsUrlTemplate(String gameIconsUrlTemplate) {
+        this.gameIconsUrlTemplate = gameIconsUrlTemplate;
     }
 
     public List<GameCategoryData> getLobbyCategories() {

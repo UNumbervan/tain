@@ -6,7 +6,8 @@ player:
 
 lobby:
   brandName: tain
-  gameLaunchUrlTemplate: https://casinotesteur.tain.com/lobby/cwl/igame?gameId=$gameId
+  gameLaunchUrlTemplate: https://casinotesteur.tain.com/lobby/cwl/igame?gameId={game.id}
+  gameIconsUrlTemplate: https://cdn.tain.com/casino/v3/content/flash/online_lobby/tain/icons/id_{game.id}.jpg
   lobbyCategories:
     -
       id: slots

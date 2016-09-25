@@ -1,11 +1,11 @@
 package se.tain;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
-import se.tain.web.data.*;
+import se.tain.web.data.GameData;
+import se.tain.web.data.LobbyConfigData;
+import se.tain.web.data.PlayerData;
 
-import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -34,6 +34,7 @@ public class CasinoApiFacade {
         configData.setBrandName(lobbyConfig.getBrandName());
         configData.setGameLaunchUrlTemplate(lobbyConfig.getGameLaunchUrlTemplate());
         configData.setLobbyCategories(lobbyConfig.getLobbyCategories());
+        configData.setGameIconsUrlTemplate(lobbyConfig.getGameIconsUrlTemplate());
         return configData;
     }
 
