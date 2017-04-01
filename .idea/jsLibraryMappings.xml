@@ -2,5 +2,9 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$/src/main/resources/static/frontend" libraries="{casino-api-facade/src/main/resources/static/frontend/node_modules}" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/frontend/node" libraries="{casino-api-facade/src/main/resources/static/frontend/node/node_modules}" />
+    <file url="file://$PROJECT_DIR$/target/classes/static" libraries="{casino-api-facade/target/classes/static/node_modules}" />
+    <file url="file://$PROJECT_DIR$/target/classes/static/frontend" libraries="{casino-api-facade/target/classes/static/frontend/node_modules}" />
+    <file url="file://$PROJECT_DIR$/target/classes/static/frontend/node" libraries="{casino-api-facade/target/classes/static/frontend/node/node_modules}" />
   </component>
 </project>
