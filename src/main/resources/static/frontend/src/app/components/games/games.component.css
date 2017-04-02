@@ -1,0 +1,14 @@
+:host {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 499px) {
+  :host {
+    justify-content: space-between;
+  }
+}

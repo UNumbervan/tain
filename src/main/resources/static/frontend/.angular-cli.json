@@ -54,7 +54,8 @@
     "styleExt": "css",
     "component": {},
     "spec": {
-      "component": false
+      "component": false,
+      "service": false
     }
   }
 }

@@ -9,6 +9,14 @@ public class GameData {
     private List<String> devices;
     private List<String> categories;
 
+    public GameData(Integer id, String lobbyName, List<String> devices, List<String> categories) {
+        this.id = id;
+        this.lobbyName = lobbyName;
+        this.devices = devices;
+        this.categories = categories;
+    }
+
+
     public Integer getId() {
         return id;
     }

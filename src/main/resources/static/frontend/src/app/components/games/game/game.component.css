@@ -1,0 +1,39 @@
+:host {
+  border: 1px solid black;
+  border-radius: 4px;
+  position: relative;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+:host img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (max-width: 499px) {
+  :host {
+    width: 44vw;
+    height: 44vw;
+    margin: 1vw;
+    line-height: 44vw;
+  }
+}
+
+@media (min-width: 500px) {
+  :host {
+    width: 175px;
+    height: 175px;
+    line-height: 175px;
+    margin: 10px;
+  }
+}

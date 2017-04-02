@@ -1,0 +1,43 @@
+:host {
+  border: 1px solid black;
+  overflow: hidden;
+  width: 100%;
+}
+
+:host .logo {
+  height: 66px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+}
+
+.sandwitch-button {
+  height: 61px;
+  width: 61px;
+  background: none;
+  border: 1px solid black;
+  font-size: 25px;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.sandwitch-button:focus {
+  outline: none;
+}
+
+@media (max-width: 499px) {
+  .sandwitch-button {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 500px) {
+  .sandwitch-button {
+    display: none;
+  }
+}
+

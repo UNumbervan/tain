@@ -4,6 +4,11 @@ public class PlayerData {
     private String displayName;
     private BalanceData balance;
 
+    public PlayerData(String displayName, BalanceData balance) {
+        this.displayName = displayName;
+        this.balance = balance;
+    }
+
     public String getDisplayName() {
         return displayName;
     }

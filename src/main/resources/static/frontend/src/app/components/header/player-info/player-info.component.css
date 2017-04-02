@@ -1,0 +1,29 @@
+:host > * {
+  line-height: 22px;
+  vertical-align: middle;
+}
+
+@media (max-width: 499px) {
+  :host {
+    display: block;
+  }
+
+  :host > * {
+    display: inline-block;
+  }
+
+  :host > .balances {
+    float: right;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 500px) {
+  :host {
+    padding-right: 10px;
+    width: 200px;
+    float: right;
+    text-align: right;
+  }
+}
+
